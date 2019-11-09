@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Delete Edit Table</title>
+        <!-- <meta charset="windowa-1252"> -->
+         <!-- <meta name="viewport" content="width=device-width, initial-scale-1.0">  -->
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+        <!-- <script>dropDatabase.addEventListener('click', dropDb);</script> -->
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="tab tab-1">
+                <table id="table" border="1" onclick="selectedRowToInput();">
+                    <tr>
+                        <th>First Name</th><br>
+                        <th>Last Name</th>
+                        <th>Age</th>
+                    </tr>
+
+                    <tr>
+                        <td>A1</td>
+                        <td>B1</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>A2</td>
+                        <td>B2</td>
+                        <td>20</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab tab-2">
+                First Name :<input type="text" name="fname" id="fname">
+                Last Name :<input type="text" name="lname" id="lname">
+                Age :<input type="number" name="age" id="age">
+
+                <button onclick="addHtmlTable();">Add</button>
+                <button onclick="editTableSelectedRow();">Edit</button>
+                <button onclick="deleteSelectedRow();">Delete</button>
+
+                <!-- <button onclick="addRow();">Add</button> -->
+            </div>
+        </div>
+        
+    </body>
+</html>

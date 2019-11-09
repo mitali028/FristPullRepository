@@ -1,0 +1,6 @@
+.container{overflow: hidden;}
+.tab{float: left; margin-left: 10px;}
+.tab-2{margin-left: 50px;}
+.tab-2 input{display: block;margin-bottom: 15px;}
+tr{transition:all 30s ease-in-out;}
+tr:hover{background-color: #dddddd; cursor: pointer;}
